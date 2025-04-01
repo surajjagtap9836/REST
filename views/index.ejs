@@ -12,6 +12,8 @@
     <div>
         <h4 class="user"><%=post.username %></h4>
         <p class="content"><%=post.content %></p>
+        <button><a href="http://localhost:5204/posts/new">create new posts</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button><a href="http://localhost:5204/posts/<%= post.id%>">view post in detail</a>
     </div>
 <%}%>
     
